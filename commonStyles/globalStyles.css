@@ -1,35 +1,18 @@
 :root {
   --main-color: #fff;
-  --accent-color: #e50914;
+  --accent-color: #c62828;
+  /* --accent-color: #f6121d; */
+  /* --accent-color: #e50914; */
   --main-background-color: black;
   --secondary-text-color: #444;
-  --main-font-family: 'Special Gothic Expanded One', sans-serif;
+  --main-font-family: 'Special Gothic Expanded One', 'Arial', sans-serif;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   /* border: 1px solid red; */
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li {
-  margin: 0;
-  padding: 0;
 }
 
 #root {

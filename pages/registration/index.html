@@ -21,8 +21,8 @@
           <div class="logo" href="/" target="_blank">CINEMA</div>
           <div class="header-nav-wrapper">
             <nav>
-              <a href="/">О нас</a>
-              <a href="/">Контакты</a>
+              <a href="/#about-us-title">О нас</a>
+              <a href="#footer-contact">Контакты</a>
               <a class="registration-link" href="/">Главная</a>
             </nav>
             <select name="page-language" id="page-language">
@@ -35,9 +35,11 @@
       </header>
       <main>
         <!-- <form class="registration-form" action=""></form> -->
-         <form class="login-form-single" action="">
+        <form class="login-form-single" action="">
           <h1>Авторизоваться</h1>
-          <label for="login-email">Адрес электронной почты или номер телефона</label>
+          <label for="login-email"
+            >Адрес электронной почты или номер телефона</label
+          >
           <input
             type="text"
             id="login-email"
@@ -59,7 +61,9 @@
             <p>или</p>
             <span></span>
           </div>
-          <button type="button" class="alt-login-btn">Используйте код входа</button>
+          <button type="button" class="alt-login-btn">
+            Используйте код входа
+          </button>
           <p class="forgot-password">
             <a href="">Забыли пароль?</a>
           </p>
@@ -72,14 +76,70 @@
             <a href="#">Зарегистрируйтесь сейчас</a>
           </p>
           <p class="recaptcha-info">
-            Этот сайт защищён Google reCAPTCHA, чтобы гарантировать, что вы не bot.
+            Этот сайт защищён Google reCAPTCHA, чтобы гарантировать, что вы не
+            bot.
             <br />
             <a href="#">Дополнительная информация</a>
           </p>
         </form>
       </main>
-      <footer></footer>
+      <footer id="footer-contact" class="footer">
+        <div class="footer__content">
+          <div class="footer__section">
+            <h3>Контакты</h3>
+            <ul>
+              <li><a href="tel:+491234567890">+49 123 456 7890</a></li>
+              <li>
+                <a href="mailto:support@cinema.fake">support@cinema.fake</a>
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/Hk6sosxQzuBimUDm8"
+                  target="_blank"
+                  >Friedrichstraße 100, <br />
+                  10117, Berlin</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <h3>Навигация</h3>
+            <ul>
+              <li><a href="/#about-us-title">О нас</a></li>
+              <li><a href="#footer-contact">Контакты</a></li>
+              <li><a href="/">Правила использования</a></li>
+              <li><a href="/">Политика конфиденциальности</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <h3>Мы в соцсетях</h3>
+            <nav class="social-icons">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  src="../../images/icons8-facebook-новый-48.png"
+                  alt="facebook"
+              /></a>
+              <a href="https://www.messenger.com/" target="_blank"
+                ><img
+                  src="../../images/icons8-facebook-messenger-48.png"
+                  alt="messenger"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="../../images/icons8-instagram-48.png"
+                  alt="instagram"
+              /></a>
+              <a href="https://web.telegram.org/a/" target="_blank"
+                ><img src="../../images/icons8-телеграм-48.png" alt="telegram"
+              /></a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© 2025 Cinema. Все права защищены.</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
-`
