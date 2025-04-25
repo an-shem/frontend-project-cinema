@@ -4,7 +4,7 @@
   height: 70vh;
   margin-top: 100px;
   background-color: var(--main-background-color);
-  background-image: url('../images/background-2.jpg');
+  background-image: url('./images/background-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
