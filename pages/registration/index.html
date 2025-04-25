@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../commonStyles/globalStyles.css" />
+    <link rel="stylesheet" href="../../commonStyles/elementsstyles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CINEMA</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div class="header-elemens-wrapper">
+          <div class="logo" href="/" target="_blank">CINEMA</div>
+          <div class="header-nav-wrapper">
+            <nav>
+              <a href="/">О нас</a>
+              <a href="/">Контакты</a>
+              <a class="registration-link" href="/">Главная</a>
+            </nav>
+            <select name="page-language" id="page-language">
+              <option value="eu">EU</option>
+              <option value="eu">DE</option>
+              <option value="de" selected>RU</option>
+            </select>
+          </div>
+        </div>
+      </header>
+      <main>
+        <!-- <form class="registration-form" action=""></form> -->
+         <form class="login-form-single" action="">
+          <h1>Авторизоваться</h1>
+          <label for="login-email">Адрес электронной почты или номер телефона</label>
+          <input
+            type="text"
+            id="login-email"
+            name="login-email"
+            placeholder="Введите email или номер"
+            required
+          />
+          <label for="login-password">Пароль</label>
+          <input
+            type="password"
+            id="login-password"
+            name="login-password"
+            placeholder="Введите пароль"
+            required
+          />
+          <button type="submit" class="login-btn">Авторизоваться</button>
+          <div class="or-divider">
+            <span></span>
+            <p>или</p>
+            <span></span>
+          </div>
+          <button type="button" class="alt-login-btn">Используйте код входа</button>
+          <p class="forgot-password">
+            <a href="">Забыли пароль?</a>
+          </p>
+          <div class="remember-me-wrapper">
+            <input type="checkbox" id="remember-me" name="remember-me" />
+            <label for="remember-me">Запомнить данные пользователя</label>
+          </div>
+          <p class="register-prompt">
+            Впервые на Cinema?
+            <a href="#">Зарегистрируйтесь сейчас</a>
+          </p>
+          <p class="recaptcha-info">
+            Этот сайт защищён Google reCAPTCHA, чтобы гарантировать, что вы не bot.
+            <br />
+            <a href="#">Дополнительная информация</a>
+          </p>
+        </form>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
+`
