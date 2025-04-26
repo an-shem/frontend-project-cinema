@@ -41,7 +41,6 @@ nav > a:hover {
   color: var(--accent-color);
 }
 
-
 /* ----------- footer ---------- */
 footer {
   position: relative;
@@ -61,13 +60,15 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  color: var(--accent-color);
 }
 
 .footer__section ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   list-style: none;
+  font-weight: bold;
 }
 
 .footer__section h3 {
@@ -77,8 +78,8 @@ footer {
 
 .footer__section a {
   color: inherit;
-  font-weight: 900;
 }
 
-.footer__bottom {
+.footer__section a:hover {
+  color: var(--main-color);
 }
